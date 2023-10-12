@@ -1,0 +1,56 @@
+body {
+    display: block;
+    margin: 0px;
+}
+.page-container{
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#fdc365;
+    background-image: url(../img/background-login.jpg);
+    background-size: cover;
+    position:relative;
+    overflow: hidden;
+}
+body{
+    max-height:100vh;
+    overflow:hidden;
+    position:relative;
+}
+h2{
+    font-family: 'Fredoka One', cursive;
+    color:white;
+    text-align: center;
+    font-weight: 400;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-align: center;
+}
+  .flickity-page-dots .dot {
+    background: white;
+}
+.flickity-button {
+    display: none;
+}
+.slide-image{
+width:70%;
+}
+.gallery-cell{
+text-align: center;
+padding: 0 10%;
+padding: 10vh 10% 0 10%;
+}
+.flickity-page-dots {
+    bottom: 25px;
+}
+.flickity-viewport{
+    height:100vh!important;
+}
+
+a{
+    color:#eb5315;
+}
